@@ -1,0 +1,9 @@
+================================================================================
+Input Format:
+First Line: Enter the lower and upper constraint for total number of integers to generate
+Second Line: Enter 2 values L R representing the range for values of integer
+================================================================================
+Generation Format:
+First line will contain an integer T, denoting total number of integers
+Next T lines will contain a random integer in range [L,R]
+================================================================================

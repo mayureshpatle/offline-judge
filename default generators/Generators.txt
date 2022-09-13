@@ -1,0 +1,28 @@
+###Numerical
+Single Integer
+Testcases with Single Integer
+
+#Floattng Point Number
+Single Floating Point Number
+Testcases with Single Floating Point Number
+
+###String
+Lowercase Single String (Unique Elements)
+Uppercase Single String (Unique Elements)
+Lowercase Single String (Repetition Allowed)
+Uppercase Single String (Repetition Allowed)
+Testcases with Single String (Unique)
+Testcases with Single String (Duplicates Allowed)
+
+
+###Arrays
+Integer Array (Duplicate Elements Allowed)
+Multiple Integer Arrays (Duplicate Elements Allowed)
+Testcases with Single Integer Arrays (Duplicate Elements Allowed)
+Testcases with Multiple Integer Arrays (Duplicate Elements Allowed)
+
+Integer Array (Unique Elements)
+Multiple Integer Arrays (Unique Elements)
+Testcases with Single Integer Arrays (Unique Elements)
+Testcases with Multiple Integer Arrays (Unique Elements)
+

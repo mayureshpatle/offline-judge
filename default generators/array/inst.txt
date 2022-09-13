@@ -1,0 +1,85 @@
+INPUT FORMAT (Enter input in exactly same format)
+===========================================================================
+Min_Len Max_Len
+Min_Val Max_Val
+Order_of_Elements
+Distinct_Flag
+Permutaiton_Flag
+Delimiter
+Mutiple_Testcases_Flag
+Max_T 
+
+===========================================================================
+
+DETAILS FOR ENTERING ABOVE VALUES:
+
+Line 1: Min_Len & Max_Len 
+- These denote Minimum and Maximum lengths respectively for the array(s) to generate
+- If array elements can have at most 10 digits, these values should be in range 1 to 10^6
+- If array elements have more than 10 digits, these values should be between 1 to 2*10^5
+- Max_Len should be greater than or equal to Min_Len
+- Arrays with larger constraints may not be processable on normal computers
+- Min_Len will be automatically set to 1 if any of the above constraints is violated
+- Max_Len will be automatically set to 2*10^5 in case of violation
+
+Line 2: Min_Val & Max_Val
+- Minimum and maximum values that array elements can have
+- Min_Val can be between –9*10^18 and 9*10^18
+- Max_Val can be between Min_Val and 9*10^18
+- For larger numbers, please use string generator with digits
+- Max_Val should be greater than or equal to Min_Val, else Max_Val will be set to Min_Val
+- In case of other errors, Min_Val will be set to 1 and Max_Val will be set to Max_Len
+
+Line 3: Order_of_Elements
+- 0 for random order
+- 1 for increasing order
+- 2 for decreasing order
+- Any other value will result in random order
+
+Line 4: Distinct_Flag
+- 1 if all elements of array(s) should be distinct 
+- 0 if duplicate elements are allowed
+- Any other value may result in duplicate elements
+- If this flag is set then make sure you’ve given appropriate ranges for array length & value
+- Any violation caused because of this constraint may lead to decrement in array length
+
+Line 5: Permutaiton_Flag
+- 1 if you want array to be any permutation of [1,N], where N is the length of array
+- 0 if no such expectation
+- In case of any other values, this falg will be set to 0
+- In case of any violation, Length and Value constraints will be changed accordingly
+
+Line 6: Delimiter
+- Leave this line blank if array elements need to be separated by space 
+- Write “ENTER” (without quotes) to use ‘\n’ as delimiter
+- Write “TAB” (without quotes) to use ‘\t’ as delimiter
+- Enter any character (or string) that you want to use as delimiter between array elements
+
+Line 7: Mutiple_Testcases_Flag
+- 1 if multiple testcases are allowed per file (No. of testcases will be printed in file)
+- 0 if file contains only one array (1 will not be printed in the file)
+- Any other values will be considered as 0
+
+Line 8: Max_T
+- This line is required only if Mutiple_Testcases_Flag is 1, otherwise leave this line blank
+- This Value denotes the maximum number of testcases per file
+- You can also leave this line blank to set this value automatically
+- Generated testcases will be within the limits of processing capacity of normal computers
+
+
+===========================================================================
+Created file is valid if last line of Status is TEST FILE CREATED SUCCESSFULLY!
+===========================================================================
+GENERATION FORMAT:
+
+If Multiple_Testcases_Flag is NOT SET:
+First line will contain length of array
+Next line(s) will contain the array elements separated by chosen delimiter
+
+If Multiple_Testcases_Flag is SET:
+First line will contain an integer T, denoting total number of testcases in file
+Each array is then described in 2 lines (or more if ‘\n’ delimiter is used)
+- First line will contain the length of array
+- Next line(s) will contain the array elements separated by the chosen delimiter
+
+===========================================================================

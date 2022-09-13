@@ -1,0 +1,16 @@
+INPUT FORMAT (Enter input in exactly same format)
+===========================================================================
+Min_Nodes Max_Nodes (Range: 1 to 50000)
+Min_Edges Max_Edges (Range: 0 to 50000)
+Directed_Flag       (0 or 1, Default: 0)
+Node_Weight_Flag    (0 or 1, Default: 0)
+Min_Node_Weight Max_Node_Weight
+Edge_Weight_Flag    (0 or 1, Default: 0)
+Min_Edge_Weight Max_Edge_Weight
+Connected_Flag      (0 or 1, Default: 0)
+Cyclic_Flag         (0 or 1, Default: 1)
+Node_Indexing       (0 or 1, Default: 1)
+Multiple_Testcases_Flag (0/1,Default: 0)
+Max_T               (1 to 10)
+Tree_Flag           (0 or 1, Default: 0)    
+Rooted_Tree_Flag    (0 or 1, Default: 0)

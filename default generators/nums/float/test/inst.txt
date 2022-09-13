@@ -1,0 +1,9 @@
+================================================================================
+Input Format:
+First Line: Enter the lower and upper constraint for total number of floating point numbers to generate
+Second Line: Enter 2 values L R representing the range (inclusive) for values of floating point numbers
+================================================================================
+Generation Format:
+First line will contain an integer T, denoting total number of floating point numbers
+Next T lines will contain a random floating point number in range [L,R] (with 10 digits after decimal point)
+================================================================================

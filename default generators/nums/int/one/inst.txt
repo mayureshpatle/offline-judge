@@ -1,0 +1,7 @@
+================================================================================
+Input Format:
+First Line: Enter 2 values L R representing the range for values of integer
+================================================================================
+Generation Format:
+Single line containing a random integer in range [L,R]
+================================================================================

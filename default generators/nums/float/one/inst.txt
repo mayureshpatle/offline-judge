@@ -1,0 +1,7 @@
+================================================================================
+Input Format:
+Line: Enter 2 values L R representing the range (both inclusive) for values of floating point number
+================================================================================
+Generation Format:
+Single line containing a random floating point in range [L,R] (with 10 digit precision)
+================================================================================

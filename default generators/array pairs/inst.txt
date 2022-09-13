@@ -1,0 +1,31 @@
+INPUT FORMAT (Enter input in exactly same format)
+===========================================================================
+Min_Len Max_Len
+Min_Val Max_Val
+Order_of_Elements
+Distinct_Flag
+Permutaiton_Flag
+Delimiter
+Same_Length_Flag
+Mutiple_Testcases_Flag
+Max_T
+Include_Number_Flag
+Min_Num Max_Num
+
+===========================================================================
+GENERATION FORMAT
+
+Single Testcase is descrobed as:
+If Include_Number_Flag is SET:
+- First Line Contains a number
+- Second Line: N M denoting lengths of arrays (M is not printed if Same_Length_Flag is SET)
+- Third Line: Elements of first array separated by delimiter (May have N lines is ENTER is used as Delimiter)
+- Fourth (or (N+3)th) Line: Elements of 2nd array separated by delimiter (May have M lines is ENTER is used as Delimiter)
+
+If Multiple_Testcases_Flag is NOT SET:
+File will contains single testcase as described above
+
+If Multiple_Testcases_Flag is SET:
+First Line will contain T, denoting the count of testcases in file
+T testcases will be described in the above defined format 
+===========================================================================
